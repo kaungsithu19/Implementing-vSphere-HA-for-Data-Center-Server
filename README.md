@@ -24,8 +24,6 @@ The objective of "Implementing vSphere HA for Data Center Server" is to enhance 
 ## System Desgin
 
 <img src="https://github.com/user-attachments/assets/404781cb-5056-4840-8ade-59a3f97bc918" width="650" height="340" />
-![image](https://github.com/user-attachments/assets/404781cb-5056-4840-8ade-59a3f97bc918)
-
 
 Fig 1: Proposed System Design
 
@@ -98,11 +96,11 @@ This diagram represents the design and architecture of a **vSphere High Availabi
 3. **Restoration**:
    - After recovery, the failed ESXi host can be re-added to the HA cluster, allowing the workloads to be balanced again across both hosts.
 
-<img src="https://github.com/user-attachments/assets/020a9062-34ad-46b3-a509-f7b88e16a599" width="700" height="220" />
+<img src="https://github.com/user-attachments/assets/2c3425ee-b879-43a5-9345-7cae7d0f6dcc" width="700" height="220" />
 
 Fig 2: Normal state of being connected between ESXI and Share-storage
 
-<img src="https://github.com/user-attachments/assets/2c3425ee-b879-43a5-9345-7cae7d0f6dcc" width="700" height="220" />
+<img src="https://github.com/user-attachments/assets/020a9062-34ad-46b3-a509-f7b88e16a599" width="700" height="220" />
 
 Fig 3: Operation state after ESXI 1 failover is occured
 

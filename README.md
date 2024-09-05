@@ -89,16 +89,12 @@ This diagram represents the design and architecture of a **vSphere High Availabi
    - The vCenter appliance continuously monitors the health of the hosts and VMs, ensuring they are running smoothly.
 
 2. **Failure Scenario**:
-   - If one ESXi host fails (e.g., ESXi 1), vSphere HA, managed by vCenter, detects the failure through heartbeats.
-   - VMs on the failed host are automatically restarted on the remaining active ESXi host (ESXi 2).
+   - If one ESXi host fails (e.g., ESXi 2), vSphere HA, managed by vCenter, detects the failure through heartbeats.
+   - VMs on the failed host are automatically restarted on the remaining active ESXi host (ESXi 1).
    - Since the shared storage is centralized, there is no data loss during this failover.
 
 3. **Restoration**:
    - After recovery, the failed ESXi host can be re-added to the HA cluster, allowing the workloads to be balanced again across both hosts.
-
-### Conclusion:
-
-This design ensures high availability, efficient resource management, and resilience in the data center. By leveraging VMware vSphere HA, centralized shared storage, and a robust networking setup, the system minimizes downtime and maintains continuous operations, even in case of hardware failures.
 
 <img src="https://github.com/user-attachments/assets/020a9062-34ad-46b3-a509-f7b88e16a599" width="700" height="200" />
 

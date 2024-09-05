@@ -96,13 +96,11 @@ This diagram represents the design and architecture of a **vSphere High Availabi
 3. **Restoration**:
    - After recovery, the failed ESXi host can be re-added to the HA cluster, allowing the workloads to be balanced again across both hosts.
 
-<img src="https://github.com/user-attachments/assets/777c1a00-df84-49b4-ba23-35073a1c898b" width="700" height="220" />
-![image]()
+<img src="https://github.com/user-attachments/assets/777c1a00-df84-49b4-ba23-35073a1c898b" width="800" height="220" />
 
 Fig 2: Normal state of being connected between ESXI and Share-storage
 
-<img src="https://github.com/user-attachments/assets/bd8a14ba-893e-4b45-bbab-1077ead39b1e" width="700" height="220" />
-![image]()
+<img src="https://github.com/user-attachments/assets/bd8a14ba-893e-4b45-bbab-1077ead39b1e" width="800" height="220" />
 
 Fig 3: Operation state after ESXI 1 failover is occured
 

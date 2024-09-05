@@ -104,6 +104,6 @@ Fig 2: Normal state of being connected between ESXI and Share-storage
 
 Fig 3: Failure state after ESXI 1 failover is occured
 
-**Note**: Due to my system limitation, I only used 1 virtual machine(VM) per esxi aLthough 2 virtual machines(VMs) are deployed on each ESXI. 
+**Note**: Due to my system limitation, I only used 1 virtual machine(VM) per ESXI. 
 
 

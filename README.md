@@ -23,8 +23,11 @@ The objective of "Implementing vSphere HA for Data Center Server" is to enhance 
 
 ## System Desgin
 <img src="https://github.com/user-attachments/assets/020a9062-34ad-46b3-a509-f7b88e16a599" width="700" height="200" />
+
 Fig 1: Normal state of being connected between ESXI and Share-storage
+
 <img src="https://github.com/user-attachments/assets/2c3425ee-b879-43a5-9345-7cae7d0f6dcc" width="700" height="200" />
+
 Fig 2: Operation state after ESXI 1 failover is occured
 
 

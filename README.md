@@ -19,7 +19,7 @@ The objective of "Implementing vSphere HA for Data Center Server" is to enhance 
 - ESXi Hosts (Hypervisor) used to deploy and run virtual machines in the data center.
 - vSphere Web Client for managing vSphere HA and configuring settings through a graphical interface.
 - Shared Storage (e.g., SAN, NAS) for ensuring access to virtual machine files across hosts in an HA cluster.
-- Networking Tools for configuring proper network connections and failover mechanisms between hosts.
+- Mikrotik Router for changing the internal connection internel protocols.
 
 ## System Desgin
 

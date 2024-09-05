@@ -23,7 +23,7 @@ The objective of "Implementing vSphere HA for Data Center Server" is to enhance 
 
 ## System Desgin
 
-<img src="https://github.com/user-attachments/assets/94d47037-3534-4873-a857-9802d1dc7512" width="550" height="340" />
+<img src="https://github.com/user-attachments/assets/94d47037-3534-4873-a857-9802d1dc7512" width="650" height="340" />
 
 Fig 1: Proposed System Design
 
